@@ -2743,6 +2743,15 @@ const devices = [
         ota: ota.zigbeeOTA,
     },
     {
+        zigbeeModel: ['1743430P7'],
+        model: '1743430P7',
+        vendor: 'Philips',
+        description: 'Hue Impress outdoor Pedestal',
+        meta: {turnsOffAtBrightness1: true},
+        extend: hue.light_onoff_brightness_colortemp_colorxy,
+        ota: ota.zigbeeOTA,
+    },
+    {
         zigbeeModel: ['LCC001'],
         model: '4090531P7',
         vendor: 'Philips',
